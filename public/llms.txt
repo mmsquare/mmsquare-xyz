@@ -15,7 +15,7 @@ Ming Ma is a product leader and AI practitioner based in the Greater Seattle are
 - Applying AI as a practical work tool (not theoretically)
 
 ## What he's exploring now
-- AI-native operations: running an e-commerce brand (whispertothepearl.com) with AI agents
+- AI-native operations: advising a business partner on whispertothepearl.com, an e-commerce brand operated with AI agents
 - AI × consumer product opportunities
 - Early-stage product advisory
 

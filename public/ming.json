@@ -36,6 +36,6 @@
   "open_to": ["Advisory roles", "Early-stage collaborations", "Interesting conversations"],
   "not_looking_for": ["Full-time roles at companies where AI strategy means adding ChatGPT to a form"],
   "projects": [
-    { "name": "Whisper to the Pearl", "url": "https://whispertothepearl.com", "description": "E-commerce brand operated with AI agents" }
+    { "name": "Whisper to the Pearl", "url": "https://whispertothepearl.com", "description": "E-commerce brand run by a business partner; Ming advises on AI-native operations strategy" }
   ]
 }
