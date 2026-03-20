@@ -1,0 +1,105 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Ming Ma — Product builder. AI tinkerer." } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ming Ma",
+    "url": "https://mmsquare.xyz",
+    "email": "mamingming@gmail.com",
+    "jobTitle": "Product Builder & AI Practitioner",
+    "description": "15+ years building products at Facebook, ByteDance, and Web3 protocols. Now using AI as a real work tool.",
+    "sameAs": [
+      "https://linkedin.com/in/maming",
+      "https://medium.com/@ming_ma"
+    ],
+    "knowsAbout": ["Product Management", "Artificial Intelligence", "DeFi", "Developer Growth", "Consumer Products"],
+    "alumniOf": [
+      { "@type": "Organization", "name": "Facebook / Meta" },
+      { "@type": "Organization", "name": "ByteDance" },
+      { "@type": "Organization", "name": "Scroll" },
+      { "@type": "Organization", "name": "Tranchess" }
+    ]
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #0f0f0f;
+      --fg: #e8e8e8;
+      --muted: #888;
+      --accent: #c8ff00;
+      --border: #222;
+      --max: 680px;
+    }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Georgia', serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav {
+      padding: 2rem 2rem 0;
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      gap: 1.5rem;
+      font-family: monospace;
+      font-size: 0.85rem;
+    }
+    nav a { color: var(--muted); }
+    nav a:hover { color: var(--accent); }
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+    h1 { font-size: 2rem; font-weight: normal; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.1rem; font-weight: normal; color: var(--muted); margin: 2rem 0 0.5rem; }
+    p { margin: 0 0 1rem; color: #ccc; }
+    .muted { color: var(--muted); }
+    .tag {
+      display: inline-block;
+      font-family: monospace;
+      font-size: 0.75rem;
+      background: #1a1a1a;
+      border: 1px solid var(--border);
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      color: var(--muted);
+      margin: 0.2rem 0.2rem 0.2rem 0;
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    ul { padding-left: 1.2rem; }
+    li { color: #ccc; margin-bottom: 0.3rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">~</a>
+    <a href="/about">about</a>
+    <a href="/now">now</a>
+    <a href="/writing">writing</a>
+  </nav>
+  <main>
+    <slot />
+  </main>
+</body>
+</html>

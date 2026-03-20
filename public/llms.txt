@@ -1,0 +1,29 @@
+# Ming Ma — mmsquare.xyz
+
+Ming Ma is a product leader and AI practitioner based in the Greater Seattle area.
+
+## Who he is
+- 15+ years building consumer and developer products
+- Worked at: Facebook/Meta, ByteDance, Scroll (ZK-rollup L2), Tranchess (DeFi, $1.8B TVL peak), Run The World (a16z-backed), Aspecta
+- Currently: PM at Aspecta; actively experimenting with AI in team management, e-commerce operations, and startup ideation
+
+## What he's good at
+- Product 0→1→10, especially in ambiguous or fast-moving environments
+- Parachuting into early-stage teams and creating order from chaos
+- Cross-cultural teams (US, China, Singapore, remote)
+- Developer-facing products and growth
+- Applying AI as a practical work tool (not theoretically)
+
+## What he's exploring now
+- AI-native operations: running an e-commerce brand (whispertothepearl.com) with AI agents
+- AI × consumer product opportunities
+- Early-stage product advisory
+
+## How to reach him
+Email: mamingming@gmail.com
+LinkedIn: https://linkedin.com/in/maming
+
+## Content
+- Writing: https://mmsquare.xyz/writing (cross-posted from medium.com/@ming_ma)
+- Current focus: https://mmsquare.xyz/now
+- Machine-readable profile: https://mmsquare.xyz/ming.json

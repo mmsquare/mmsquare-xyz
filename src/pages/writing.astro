@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+
+const posts = [
+  {
+    title: "Who should pick up the bill",
+    subtitle: "From Silicon Valley to China — Chapter 5",
+    date: "Sep 2019",
+    url: "https://medium.com/@ming_ma/who-should-pick-up-the-bill-b3c859be372"
+  },
+  {
+    title: "Age Gracefully in Tech Industry",
+    subtitle: "Stay young and appreciate being old",
+    date: "Jun 2019",
+    url: "https://medium.com/@ming_ma/age-gracefully-in-tech-industry-f925b50af248"
+  },
+  {
+    title: "996",
+    subtitle: "From Silicon Valley to Beijing — Chapter 4",
+    date: "Apr 2019",
+    url: "https://medium.com/@ming_ma/996-85f6cf76d44b"
+  },
+  {
+    title: "How to work with people who are 10 years younger than you",
+    subtitle: "From Silicon Valley to Beijing — Chapter 3",
+    date: "Feb 2019",
+    url: "https://medium.com/@ming_ma/how-to-work-with-people-who-are-10-years-younger-than-you-71cd378b30e"
+  },
+  {
+    title: "From Silicon Valley to Beijing",
+    subtitle: "Chapter 1: My first month into the new adventure",
+    date: "Sep 2018",
+    url: "https://medium.com/@ming_ma/from-silicon-valley-to-beijing-5dcad95985b"
+  },
+  {
+    title: "Beautiful China",
+    subtitle: "From Silicon Valley to Beijing — Chapter 2",
+    date: "Nov 2018",
+    url: "https://medium.com/@ming_ma/beautiful-china-d74477c4052f"
+  },
+];
+---
+<Base title="Writing — Ming Ma" description="Ming Ma's writing — observations on work, culture, and getting older in tech.">
+  <h1>Writing</h1>
+  <p>
+    Mostly observations about work, culture, and navigating different worlds.
+    Published on <a href="https://medium.com/@ming_ma" target="_blank">Medium</a>.
+  </p>
+
+  <hr />
+
+  <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem;">
+    {posts.map(post => (
+      <div>
+        <div class="muted" style="font-family: monospace; font-size: 0.8rem; margin-bottom: 0.2rem;">{post.date}</div>
+        <a href={post.url} target="_blank" style="font-size: 1.05rem;">{post.title}</a>
+        <div style="color: var(--muted); font-size: 0.9rem; margin-top: 0.1rem;">{post.subtitle}</div>
+      </div>
+    ))}
+  </div>
+</Base>

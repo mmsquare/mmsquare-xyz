@@ -1,0 +1,42 @@
+{
+  "name": "Ming Ma",
+  "handle": "mmsquare",
+  "location": "Greater Seattle, WA, USA",
+  "email": "mamingming@gmail.com",
+  "linkedin": "https://linkedin.com/in/maming",
+  "website": "https://mmsquare.xyz",
+  "title": "Product Builder & AI Practitioner",
+  "summary": "15+ years building products at scale — from Facebook and ByteDance to Web3 protocols. Now using AI as a real work primitive.",
+  "skills": [
+    "Product Management",
+    "0-to-1 Products",
+    "Developer Growth",
+    "Remote Team Leadership",
+    "DeFi / Web3",
+    "AI Operations",
+    "Data Science",
+    "Consumer Products",
+    "Cross-cultural Teams"
+  ],
+  "experience": [
+    { "company": "Aspecta", "role": "Product Manager", "period": "2025–present", "url": "https://aspecta.ai" },
+    { "company": "Scroll", "role": "Head of Product", "period": "2023–2025", "url": "https://scroll.io" },
+    { "company": "Tranchess", "role": "Head of Product", "period": "2021–2024", "url": "https://tranchess.com", "note": "BTC-holding DeFi protocol, $1.8B TVL peak" },
+    { "company": "Run The World", "role": "Head of Product", "period": "2020–2021", "note": "a16z-backed virtual events platform" },
+    { "company": "ByteDance", "role": "Product Manager", "period": "2018–2020" },
+    { "company": "Facebook / Meta", "role": "PM & Data Scientist", "period": "2013–2018" },
+    { "company": "IBM", "role": "Staff Business Analyst", "period": "2010–2013" },
+    { "company": "Accenture", "role": "Developer", "period": "2009–2010" }
+  ],
+  "education": [
+    { "school": "Singapore Management University", "degree": "Master of IT in Business (Analytics)", "year": "2012" },
+    { "school": "National University of Singapore", "degree": "Bachelor of Computing, Information Systems", "year": "2009" }
+  ],
+  "languages": ["English", "Mandarin Chinese", "Japanese (conversational)"],
+  "currently": "Building at Aspecta. Experimenting with AI-native operations. Looking for interesting problems.",
+  "open_to": ["Advisory roles", "Early-stage collaborations", "Interesting conversations"],
+  "not_looking_for": ["Full-time roles at companies where AI strategy means adding ChatGPT to a form"],
+  "projects": [
+    { "name": "Whisper to the Pearl", "url": "https://whispertothepearl.com", "description": "E-commerce brand operated with AI agents" }
+  ]
+}
