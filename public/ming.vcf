@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Ming Ma
+N:Ma;Ming;;;
+EMAIL;TYPE=INTERNET:mamingming@gmail.com
+URL:https://mmsquare.xyz
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/maming
+X-SOCIALPROFILE;TYPE=medium:https://medium.com/@ming_ma
+TITLE:Product Builder & AI Practitioner
+NOTE:15+ years building products at Facebook\, ByteDance\, and Web3 protocols. Now using AI as a real work tool.
+ADR;TYPE=HOME:;;Greater Seattle;WA;;USA
+END:VCARD
