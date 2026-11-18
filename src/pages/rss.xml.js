@@ -7,6 +7,12 @@ export async function GET(context) {
     site: context.site,
     items: [
       {
+        title: 'Zero to One: Building a Beauty App When All I Knew Was Lip Balm',
+        pubDate: new Date('2026-11-18'),
+        description: 'Building and growing Cherie at ByteDance',
+        link: 'https://medium.com/@ming_ma/zero-to-one-building-a-beauty-app-when-all-i-knew-was-lip-balm-a22503b9f18b',
+      },
+      {
         title: 'Who should pick up the bill',
         pubDate: new Date('2019-09-28'),
         description: 'From Silicon Valley to China — Chapter 5',
