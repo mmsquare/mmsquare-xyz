@@ -7,6 +7,12 @@ export async function GET(context) {
     site: context.site,
     items: [
       {
+        title: 'Zero to One: From Web3 Noob to $1.8 Billion Dollars',
+        pubDate: new Date('2026-11-20'),
+        description: 'Building Tranchess and learning what users actually wanted',
+        link: 'https://medium.com/@ming_ma/zero-to-one-from-web3-noob-to-1-8-billion-dollars-9d75b1325b76',
+      },
+      {
         title: 'Zero to One: Building a Beauty App When All I Knew Was Lip Balm',
         pubDate: new Date('2026-11-18'),
         description: 'Building and growing Cherie at ByteDance',
